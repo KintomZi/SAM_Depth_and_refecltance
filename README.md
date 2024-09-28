@@ -15,16 +15,16 @@ GridManager是存储该项目中的函数与方法。里面有许多方法有可
 
 （左图）=>>RGB图像              （右图）=>>Ground truth图像(class number=11) 
 
-<img src="https://github.com/user-attachments/assets/0c79cf25-c85f-49fe-94b4-ce556dec2753" alt="RGB图像" width="500"/> <img src="https://github.com/user-attachments/assets/2475cccd-641e-42b1-97dc-1d97b8c6a93b" alt="Ground truth图像" width="500"/>
+<img src="https://github.com/user-attachments/assets/da3ada67-56f6-4c44-b38f-2e66afa2b8a6" alt="RGB图像" width="500"/> <img src="https://github.com/user-attachments/assets/2475cccd-641e-42b1-97dc-1d97b8c6a93b" alt="Ground truth图像" width="500"/>
 
 
 Depth图像(映射到 plasma 中)
 
-<img src="https://github.com/user-attachments/assets/c9006ef5-2cc9-4d23-9b9d-0fe28cef9702" alt="Depth图像" width="500"/>
+<img src="https://github.com/user-attachments/assets/27befa46-9cf0-4a5b-bd64-f9b283aaa189" alt="Depth图像" width="500"/>
 
 Reflectance图像(映射到 plasma 中)，但原图数据跨度过大导致对比度太差，故进行的一些拉伸(左：手动Clip,右：自动正态分布)
 
-<img src="https://github.com/user-attachments/assets/8aa049b2-08c3-40b8-8898-88876400c44a" alt="ref_clip" width="500"/> <img src="https://github.com/user-attachments/assets/32b8b6b6-19c0-42b5-bfa7-1d1086d6f0a6" alt="ref_nor" width="500"/> 
+<img src="https://github.com/user-attachments/assets/9b57c1a6-11e5-40bb-97f2-2ff9cbd62589" alt="ref_clip" width="500"/> <img src="https://github.com/user-attachments/assets/b55bb15c-5162-4da8-9715-7e78d5878fc9" alt="ref_nor" width="500"/> 
 
 
 Depth to SAM的结果(背景图片：RGB)
